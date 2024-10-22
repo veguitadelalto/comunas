@@ -6,8 +6,8 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 const SHOPIFY_API_SECRET = process.env.SHOPIFY_API_SECRET;
-const SHOPIFY_STORE_URL = process.env.SHOPIFY_STORE_URL; // La URL de tu tienda Shopify, e.g., 'tu-tienda.myshopify.com'
-const SHOPIFY_ACCESS_TOKEN = process.env.SHOPIFY_ACCESS_TOKEN; // Token de acceso de la API del panel de control
+const SHOPIFY_STORE_URL = process.env.SHOPIFY_STORE_URL; 
+const SHOPIFY_ACCESS_TOKEN = process.env.SHOPIFY_ACCESS_TOKEN; 
 
 // Lista de comunas permitidas
 const comunasPermitidas = ['La Reina', 'Las Condes', 'Ñuñoa', 'Providencia', 'Vitacura', 'Peñalolén', 'La Florida', 'Macul', 'Puente Alto'];
